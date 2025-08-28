@@ -20,7 +20,7 @@ pd.set_option("display.width", 2000)
 
 #%% Data Loading & Preparation
 # Data Loading
-df = pd.read_csv("tpe6_july_2025.csv")
+df = pd.read_csv("../data/tpe6_july_2025.csv")
 
 # Convert DateTime column to datetime type and set as index
 df["DateTime"] = pd.to_datetime(df["DateTime"], format="%m/%d/%y %H:%M")
